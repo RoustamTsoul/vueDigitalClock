@@ -1,26 +1,36 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class="container">
+    <DigitalClock/>
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import DigitalClock from './components/DigitalClock.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    DigitalClock
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap');
+
+body{
+font-family:'Covered By Your Grace', cursive; ;
+overflow: hidden;
+background: conic-gradient(from 90deg at 25% -10%, #ff4500, #d3f340, #7bee85, #afeeee, #7bee85);
 }
+
+.container{
+width: 95%;
+height: 100vh;
+margin: auto;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
 </style>
