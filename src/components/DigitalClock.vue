@@ -1,10 +1,10 @@
 <template>
   <div class="digital-clock">
-    <h1 class="day">{{day}}</h1>
-    <h1 class="hour">{{ hours }}</h1>
-    <h1 class="bar">:</h1>
-    <h1 class="minute">{{minutes}}</h1>
-    <h1 class="ampm">{{ampm}}</h1>             
+    <h1 class=" time day">{{day}}</h1>
+    <h1 class="time hour">{{ hours }}</h1>
+    <h1 class=" time bar">:</h1>
+    <h1 class=" time minute">{{minutes}}</h1>
+    <h1 class="time ampm">{{ampm}}</h1>             
   </div>
 </template>
 
@@ -60,18 +60,20 @@ export default {
 
 <style scoped>
 .digital-clock{
- width: fit-content;
+ width:fit-content;
  margin: auto;
  padding: 20px;
  border-radius: 5px;
- color:rgb(223, 16, 16);
- background-color: #ff440046;
+ color:rgb(121, 22, 22);
+ background-color: #90594446;
 }
 
-.digital-clock h1{
+.time{
 display: inline-block;
 margin:0 10px;
 font-weight: bold;
 font-size: 5rem;
 }
+
+
 </style>

@@ -16,12 +16,12 @@ export default {
 </script>
 
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Symbols+2&display=swap');
 
 body{
-font-family:'Covered By Your Grace', cursive; ;
+font-family:'Noto Sans Symbols 2', sans-serif;
 overflow: hidden;
-background: conic-gradient(from 90deg at 25% -10%, #ff4500, #d3f340, #7bee85, #afeeee, #7bee85);
+background: conic-gradient(from 90deg at 25% -10%, #a6583b, #d3f340, #5a945f, #a9f9f9, #50cb5a);
 }
 
 .container{
